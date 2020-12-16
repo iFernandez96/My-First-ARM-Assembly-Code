@@ -20,4 +20,4 @@ loop:					@ Start of the loop.
 					@
 exit:					@ Exit. loop.
 	POP {r0 - r12, pc}		@ Return. all. registers to their 
-					@ default values. 
+					@ default values.  
